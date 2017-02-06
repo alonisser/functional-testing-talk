@@ -78,12 +78,14 @@ Selenium and similar tools:
 
 * The trees and forest problem.
 * Too much mocking is dangerous, we can break the class but the tests still pass
-* Tight coupling of tests to implementation.
+* Might lead to tight coupling of tests to implementation.
+* Blamed for design monstrosities, needed to abstract all db and Io code out of tested classes. 
 
 ---
 
 # The traditional view revisited: The Test Pyramid
 An often missed side note:
+
 "
     The pyramid is based on the assumption that broad-stack tests are expensive, slow, and brittle compared to more focused tests, 
     such as unit tests. While this is usually true, there are exceptions. If my high level tests are fast, reliable, 
@@ -95,14 +97,15 @@ An often missed side note:
 
 # The traditional view revisited: functional testing - the new unit?
 
-* In an Interesting twitter "war" not long ago, DHH (of Rails fame) claimed that the "db is part of your app now" and db hitting tests are the new unit.
+* In an Interesting twitter "war" not long ago, @DHH (of Rails fame) claimed that the "db is part of your app now" and db hitting tests are the new unit.
  
 ---
 
 # Functional testing: High level overview
 
-* Testing through the public Api of a specific app. Not testing internals
-* Testing features! not technical items. 
+* Testing features! not technical items.
+* Testing the public Api of a specific app. Not testing internals
+* Driving the tests through the app api, no mocking, replacing Third party collaborators. 
 ---
 
 # Functional testing patterns
