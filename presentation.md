@@ -292,6 +292,8 @@ Generally speaking: Pure functional code encapsulated within a class/function, w
 * http://martinfowler.com/bliki/TestPyramid.html
 * [TDD is Dead. long live testing/@DHH](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
 * [Is TDD Dead? conversions between Kent Beck, David Heinemeier Hansson, and Martin fowler](https://martinfowler.com/articles/is-tdd-dead/)
+* [Google testing blog - against End To End tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+* [Working End TO End tests](https://www.symphonious.net/2015/04/30/making-end-to-end-tests-work/)
 
 
 
