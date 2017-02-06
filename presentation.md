@@ -110,7 +110,7 @@ An often missed side note:
 
 # Functional testing patterns
 
-* Naming
+* Meaningful Naming
  
 ---
 
@@ -125,6 +125,7 @@ An often missed side note:
 * Terse and readable tests.
 * Separate technical test code
 
+---
 # Functional testing patterns
 
 * BDD style methods (http://martinfowler.com/bliki/GivenWhenThen.html)
@@ -159,7 +160,6 @@ class: center, middle
 ---
 
 
-
 # The commented out test anti pattern
 
 * "Sure we have automatic tests"
@@ -189,6 +189,7 @@ class SMSDistributionHandler(BaseDistributionHandler):
 ```
 
 * Similar to the way Django allows us to replace some backends with fake backends in settings.py
+
 ---
 
 # Functional testing patterns: Asserting against fake collaborators
