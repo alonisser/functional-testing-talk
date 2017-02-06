@@ -126,22 +126,22 @@ An often missed side note:
 * Separate technical test code
 
 ---
+
 # Functional testing patterns
 
 * BDD style methods (http://martinfowler.com/bliki/GivenWhenThen.html)
 
- 
 ---
 
 # Functional testing patters: Setup and data creation
 
-* The problem with fixtures
+* The problem with fixtures: Another thing we need to update
 
 ---
 
 # Functional testing patterns: Setup and data creation
 
-* data builders
+* data builders using the app api
  
 ---
 class: center, middle
